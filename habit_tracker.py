@@ -57,7 +57,7 @@ print(response.text)
 update_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}/{today.strftime('%Y%m%d')}"
 
 new_pixel_data = {
-    "quantity": "4.5"
+    "quantity": "120"
 }
 
 ## PUT
